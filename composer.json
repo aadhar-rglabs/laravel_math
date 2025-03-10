@@ -12,5 +12,15 @@
             "email": "aadhar.g@rglabs.net"
         }
     ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aadhar\\Math\\MathServiceProvider"
+            ],
+            "aliases": {
+                "Math": "Aadhar\\Math\\MathFacade"
+            }
+        }
+    },
     "require": {}
 }
