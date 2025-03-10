@@ -1,0 +1,16 @@
+{
+    "name": "aadha/laravel_math",
+    "description": "basic math related calculation",
+    "autoload": {
+        "psr-4": {
+            "Aadha\\LaravelMath\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aadhar gaur",
+            "email": "aadhar.g@rglabs.net"
+        }
+    ],
+    "require": {}
+}
