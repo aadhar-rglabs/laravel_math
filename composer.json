@@ -1,9 +1,10 @@
 {
     "name": "aadha/laravel_math",
     "description": "basic math related calculation",
+    "type": "library",
     "autoload": {
         "psr-4": {
-            "Aadha\\LaravelMath\\": "src/"
+            "Aadha\\Math\\": "src/"
         }
     },
     "authors": [
