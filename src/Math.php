@@ -15,7 +15,6 @@ class Math
         }
     }
 
-
     public static function isPrime($num)
     {
         if ($num <= 1) {
@@ -39,7 +38,6 @@ class Math
             return self::triangular($num - 1) + ($num - 1);
         }
     }
-
 
     public static function prime($one, $two)
     {
