@@ -28,4 +28,27 @@ class Math
         }
         return true;
     }
+
+    public static function triangular($num)
+    {
+        if($num == 0) {
+            return 0;
+        } elseif ($num == 1) {
+            return 0;
+        } else {
+            return self::triangular($num - 1) + ($num - 1);
+        }
+    }
+
+
+    public static function prime($one, $two)
+    {
+        $primes = [];
+        for ($i = $one; $i <= $two; $i++) {
+            if (self::isPrime($i)) {
+                $primes[] = $i;
+            }
+        }
+        return ($primes);
+    }
 }
